@@ -4,6 +4,9 @@ exports[`Pruebas en <GifgridItem/> Debe mostrar el componente correctamente 1`] 
 <div
   className="card animate__animated animate__wobble"
 >
-  <img />
+  <img
+    alt="Fabian"
+    src="https://www.local.com"
+  />
 </div>
 `;
