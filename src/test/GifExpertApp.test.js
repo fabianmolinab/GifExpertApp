@@ -3,9 +3,9 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { GifExpertApp } from '../GifExpertApp';
 
-describe(' Pruebas de GifExpertApp ', () => {
+describe('Pruebas de GifExpertApp', () => {
 
-  test(' Debe mostrar correctamente el componente ', () => {
+  test('Debe mostrar correctamente el componente', () => {
     const wrapper = shallow(<GifExpertApp />)
     expect(wrapper).toMatchSnapshot();
   })

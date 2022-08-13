@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` Pruebas de GifExpertApp   Debe mostrar correctamente el componente  1`] = `
+exports[`Pruebas de GifExpertApp Debe mostrar correctamente el componente 1`] = `
 <Fragment>
   <h2>
     ¡Puedes buscar cualquier Gif!
@@ -13,7 +13,7 @@ exports[` Pruebas de GifExpertApp   Debe mostrar correctamente el componente  1`
 </Fragment>
 `;
 
-exports[` Pruebas de GifExpertApp  debe de mostrar una lista de categorias 1`] = `
+exports[`Pruebas de GifExpertApp debe de mostrar una lista de categorias 1`] = `
 <Fragment>
   <h2>
     ¡Puedes buscar cualquier Gif!

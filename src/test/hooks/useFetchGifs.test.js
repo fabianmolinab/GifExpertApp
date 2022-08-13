@@ -3,9 +3,9 @@ import { renderHook } from '@testing-library/react-hooks';
 
 import { useFetchGifs } from '../../hooks/useFetchGifs';
 
-describe('Pruebas en el hook useFetchGifs', async () => {
+describe('Pruebas en el hook useFetchGifs', () => {
 
-  test('Debe de return el estado inicial', () => {
+  test('Debe de return el estado inicial', async () => {
 
     const { result, waitForNextUpdate } = renderHook(() => {
       useFetchGifs('Fabian')
@@ -17,7 +17,7 @@ describe('Pruebas en el hook useFetchGifs', async () => {
     expect(data).toEqual([]);
     expect(loading).toBe(true);
   })
-  test('debe de retornar un arreglo de imagenes y el loading en false', () => {
+  test('debe de retornar un arreglo de imagenes y el loading en false', async () => {
 
     const { result, waitForNextUpdate } = renderHook(() => { useFetchGifs('Fabian') });
 
