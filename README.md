@@ -12,16 +12,20 @@ Aplicación de búsqueda GIFs solamente debes colocar cualquier palabra y te bus
 
 Descargue el codigo fuente y ejecute los siguientes comandos:
 
-`cd GifExpertApp`
+**`cd GifExpertApp`**
 
-`npm install`
+**`npm install`**
+
 Instale las dependencias locales
 
-` npm run start`
+**`npm run start`**
+
 Despligue del servidor local
 
-`npm run test`
+**`npm run test`**
+
 Ejecutar los test unitarios
 
-` npm run build`
+**`npm run build`**
+
 Compilar aplicación
